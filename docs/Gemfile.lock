@@ -19,6 +19,7 @@ GEM
     concurrent-ruby (1.1.9)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
+    dotenv (2.7.6)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -259,13 +260,16 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
   x86_64-darwin-18
 
 DEPENDENCIES
+  dotenv
   github-pages
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.21

@@ -1,10 +1,11 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Speisekartoffel3000/isi-doc/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+This project is targeted to the students of the TU Berlin and will allow students to access ISIS forum information and notifications via Discord, a VoIP, instant messaging and digital distribution platform designed for creating communities. Isi is written in the programming language python, which accesses the messages of the ISIS forum via the RSS feed and makes them available to the students.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The bot can be operated individually/locally and as well a prototype for one ISIS module is provided via a Discord server for students to share. A hardware server running on a raspberry pi is deployed on which the Discord bot runs and continuously queries new information from the ISIS forum feeds. Due to privacy regulations of the TU Berlin, students will only be able to use the bot with their own ISIS security key, as an external aggregation of the notification from ISIS is not possible. The following chapters describe how to configure and use Isi.
 
-### Markdown
+
+### How do I host the bot myself
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

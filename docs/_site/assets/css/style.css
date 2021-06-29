@@ -324,12 +324,18 @@ a { color: #8b9dfd; }
 
 .btn { color: white; background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.8); }
 
-.page-header { background: #c51021; background: linear-gradient(157deg, #c51021 0%, #8b9dfd 67%, #e6e5e4 100%); }
+.page-header { background: #8b9dfd 67%; /* background: linear-gradient( 157deg, rgba(197, 16, 33, 1) 0%, rgba(139, 157, 253, 1) 67%, rgba(230, 229, 228, 1) 100%
+);
+*/ }
 
+/*
+.page-header { background: linear-gradient( -45deg, rgba(197, 16, 33, 1) 0%, #e73c7e, rgba(139, 157, 253, 1) 67%, rgba(139, 157, 253, 1) 100% ); background-size: 400% 400%; animation: gradient 14s ease infinite;
+}
+*/
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #bf1f37; }
+
+h2.project-tagline a { color: whitesmoke; animation: color 14s ease infinite; font-weight: 800; }
 
 img { margin: 30px auto; display: block; width: 80px; }
 
-.project-tagline { opacity: 1.0; margin: 2px 5vw 2rem 5vw; }
-
-h2.project-tagline a { color: #b20f28; }
+.project-tagline { opacity: 1; margin: 2px 5vw 2rem 5vw; }

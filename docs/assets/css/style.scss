@@ -5,8 +5,38 @@
 html {
     background: whitesmoke;
 }
+body {
+    line-height: 1.6;
+}
 a {
     color: #8b9dfd;
+}
+strong {
+    opacity: 0.9;
+}
+.main-content table th {
+    border-bottom: 1px solid #606c71;
+}
+tbody {
+    border-bottom: 1px solid #606c71;
+}
+tbody tr:last-child {
+    border-bottom: 2px solid #99a0a37a;
+}
+.main-content table td {
+    padding: 0rem 1rem;
+    border: 0px solid #e9ebec;
+    text-align: left;
+    border-left: 2px solid #c9cdce;
+    border-right: 2px solid #c9cdce;
+}
+.main-content table th {
+    border-left: 2px solid #c9cdce;
+    border: 2px solid #c9cdce;
+    text-align: left;
+}
+thead {
+    background: #c9cdce4f;
 }
 .btn {
     color: rgba(255, 255, 255, 1);
@@ -49,7 +79,13 @@ h2.project-tagline a {
     animation: color 14s ease infinite;
     font-weight: 800;
 }
-img {
+#content > ul > li {
+    margin: 20px 0 !important;
+}
+#content img {
+    margin: 20px 0 !important;
+}
+.page-header img {
     margin: 30px auto;
     display: block;
     width: 80px;
